@@ -11,10 +11,8 @@ import easyocr
 from PIL import ImageGrab
 from pynput import keyboard
 
-# reader = easyocr.Reader(['ch_sim','en'])
 reader = easyocr.Reader(['ch_sim'])
 
-TESSEARACT_ROOT = 'C:\\Program Files\\Tesseract-OCR\\tesseract.exe'
 MOVE_DURATION = 0.2
 ROW_NUM = 3
 COL_NUM = 11
